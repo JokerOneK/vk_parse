@@ -29,7 +29,7 @@ def take_posts():
 
 def write_file(data):
 
-    with open('yvkurse.csv', 'w') as file:
+    with open('yvkurse.csv', 'w', encoding="utf-8") as file:
         table = csv.writer(file)
         table.writerow(('text', 'images_urls'))
         for post in data:
