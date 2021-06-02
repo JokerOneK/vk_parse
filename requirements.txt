@@ -5,4 +5,4 @@ idna==2.10
 macholib==1.14
 PyInstaller==3.6
 requests==2.24.0
-urllib3==1.25.10
+urllib3==1.26.5
